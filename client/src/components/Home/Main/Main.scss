@@ -1,0 +1,17 @@
+.main {
+  flex: 3;
+  height: calc(100vh - 53px);
+
+  overflow: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  .wrapper {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+}

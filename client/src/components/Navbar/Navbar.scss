@@ -1,0 +1,52 @@
+.navbar {
+  background-color: white;
+  border-bottom: 0.5px solid silver;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+
+  .wrapper {
+    padding: 0.5rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .left {
+      flex: 3;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+
+      h3 {
+        color: blue;
+      }
+
+      .search {
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+        border: 1px solid silver;
+        padding: 0.3rem;
+        width: 50%;
+
+        input {
+          border: none;
+          width: 100%;
+          padding: 0.3rem;
+          outline: none;
+        }
+      }
+    }
+
+    .right {
+      flex: 1;
+
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 0.6rem;
+    }
+  }
+}
